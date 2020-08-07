@@ -1,0 +1,7 @@
+.env
+
+# Jetbrains IDE
+/.idea
+
+# MySQL Database
+/docker/mysql/data

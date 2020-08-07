@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.snow.css';
+
+@import '~@yaireo/tagify/src/tagify.scss';
+
+.ql-editor{
+    min-height: 200px;
+    font-size: .9rem;
+}
+
+// dropdown submenu
+.dropdown-submenu {
+    position: relative;
+
+    a::after {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 6px;
+        top: .8em;
+    }
+
+    .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-left: .2rem;
+        margin-right: .1rem;
+    }
+}
